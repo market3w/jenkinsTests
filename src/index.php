@@ -12,5 +12,6 @@ $test->setValue("Hello World");
 
 <body>
 	<h1><?php echo $test->getValue(); ?></h1>
+    <?php $a =0; ?>
 </body>
 </html>
