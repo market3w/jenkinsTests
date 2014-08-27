@@ -1,6 +1,6 @@
 <?php
-require_once 'test.class.php';
-$test = new Test();
+require_once 'affiche.php';
+$test = new Affiche();
 $test->setValue("Hello World");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

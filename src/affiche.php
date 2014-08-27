@@ -9,7 +9,7 @@
  * @method mixed getValue()
  */
  
-class Test{
+class Affiche{
 	private $_value = "";
 	
 	/**
