@@ -9,12 +9,15 @@
 class Affiche{
     
     /**
-     * @var mixed $_value   valeur par défaut : ""
-     * @var mixed $_value2  valeur par défaut : "" 
+     * valeur par défaut : ""
+     * @var mixed
      */
-    
-    private $_value = "";
-    private $_value2 = "";
+    private $_value;
+    /**
+     * valeur par défaut : ""
+     * @var mixed
+     */
+    private $_value2;
 
     /**
      * Set the value in $_value
