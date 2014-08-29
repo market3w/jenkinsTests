@@ -39,7 +39,7 @@ class AfficheTest extends PHPUnit_Framework_TestCase {
      * @covers Affiche::getValue
      * @todo   Implement testGetValue().
      */
-    public function testGetValue() {
+    /*public function testGetValue() {
         $this->assertEquals("mon test",$this->object->getValue());
     }
 
@@ -47,7 +47,7 @@ class AfficheTest extends PHPUnit_Framework_TestCase {
      * @covers Affiche::setValue2
      * @todo   Implement testSetValue2().
      */
-    public function testSetValue2() {
+    /*public function testSetValue2() {
         $this->assertNull($this->object->setValue2('mon test 2'));
     }
 
@@ -55,8 +55,8 @@ class AfficheTest extends PHPUnit_Framework_TestCase {
      * @covers Affiche::getValue2
      * @todo   Implement testGetValue2().
      */
-    public function testGetValue2() {
+    /*public function testGetValue2() {
         $this->assertEquals("mon test 2",$this->object->getValue2());
-    }
+    }*/
 
 }
