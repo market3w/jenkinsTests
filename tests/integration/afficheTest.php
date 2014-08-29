@@ -40,6 +40,7 @@ class AfficheTest extends PHPUnit_Framework_TestCase {
      * @todo   Implement testGetValue().
      */
     public function testGetValue() {
+        $this->object->setValue('mon test');
         $this->assertEquals("mon test",$this->object->getValue());
     }
 
