@@ -57,7 +57,7 @@ class AfficheTest extends PHPUnit_Framework_TestCase {
      * @todo   Implement testGetValue2().
      */
     public function testGetValue2() {
-        $this->object->setValue('mon test 2');
+        $this->object->setValue2('mon test 2');
         $this->assertEquals("mon test 2",$this->object->getValue2());
     }
 
