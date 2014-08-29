@@ -47,7 +47,7 @@ class AfficheTest extends PHPUnit_Framework_TestCase {
      * @covers Affiche::setValue2
      * @todo   Implement testSetValue2().
      */
-    /*public function testSetValue2() {
+    public function testSetValue2() {
         $this->assertNull($this->object->setValue2('mon test 2'));
     }
 
